@@ -442,17 +442,17 @@ button span:before, button span:after
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); }
     .cards__picture--3 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(./img/test/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../../img/Visi-Nepal-2020.png); }
     .cards__picture--1 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(./img/test/nat-6.jpg); }
     .cards__picture--2 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(./img/test/nat-7.jpg); }
     .cards__picture--4 {
-      background-image: linear-gradient(to right bottom, #2998ff, #ff7730), url(../../img/hyatt-hotel.png); }
+      background-image: linear-gradient(to right bottom, #2998ff, #ff7730), url(../img/Visit-nepal-2020.JPG); }
     .cards__picture--5 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../../img/soaltee-crown-plaza.jpg); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/Mero-Pasal.jpg); }
     .cards__picture--6 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/raddison-hotel.jpeg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/Save-me-Game-2.JPG); }
     .cards__picture--profile {
       background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/ashish_review.jpg); }
     .cards__picture--7 {
@@ -858,7 +858,7 @@ button span:before, button span:after
 
 .section-skill-bar {
   background-image: linear-gradient(#2998ff, #7ed56f);
-  padding: 15rem 0 25rem 0;
+  padding: 10rem 0 25rem 0;
   margin-top: -10rem;
   transform: skewY(-7deg); }
   .section-skill-bar > * {
