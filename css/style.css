@@ -46,10 +46,6 @@ body {
     animation: moveInleft 1s ease-out; }
     @media (max-width: 37.5rem) {
       .heading-primary--main {
-        letter-spacing: 1.5rem;
-        font-size: 4rem; } }
-    @media (max-width: 37.5rem) {
-      .heading-primary--main {
         letter-spacing: .8rem;
         font-size: 3.2rem; } }
   .heading-primary--sub {
@@ -761,7 +757,11 @@ button span:before, button span:after
   background-image: linear-gradient(to left, rgba(41, 152, 255, 0.4), rgba(51, 51, 51, 0.7)), url("../img/ashish-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative; }
+  @media (max-width: 37.5rem) {
+    .header {
+      background-position: right; } }
   .header__logo-box {
     position: absolute;
     top: 3.0rem;

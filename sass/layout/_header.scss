@@ -12,16 +12,16 @@
 
     background-size: cover;
     background-repeat: no-repeat;
-    //background-position: left-top;
-    
-
+    background-position: center;
     position: relative;
     //clip-path: polygon(0 0,100% 0,100%  100%, 0 100%);
     //-webkit-    clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
 
     //clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
 
-
+    @include respond(phone){
+        background-position: right;
+    }
     &__logo-box{
         position: absolute;
         top: 3.0rem;
