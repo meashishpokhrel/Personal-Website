@@ -1,3 +1,6 @@
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none; }
+
 @keyframes moveInleft {
   0% {
     opacity: 0;
@@ -757,7 +760,6 @@ button span:before, button span:after
   background-image: linear-gradient(to left, rgba(41, 152, 255, 0.4), rgba(51, 51, 51, 0.7)), url("../img/ashish-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   position: relative; }
   @media (max-width: 37.5rem) {
     .header {
